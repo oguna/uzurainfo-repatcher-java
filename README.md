@@ -22,8 +22,10 @@ java -jar uzurainfo-repatcher.jar <source-image> [-o <target-image>] option
 必ずオプションを1つ指定する必要があります。
 
 - `-R,--ratio <ratio>` : 横幅を1としたときの縦幅の比率を指定します。縦長の用紙に入るように並べるには `-R 1.414`
-- `-c,--column <column-num>` : 横に何個のアニメ画像を並べるかを4以上で指定します。横に6個並べるには `-c 6`
+- `-c,--column <column-num>` : 横に何個のアニメ画像を並べるかを4以上で指定します。横に4個並べるには `-c 4`
 - `-r,--row <row-num>` : 縦に何個のアニメ画像を並べるかを1以上で指定します。縦に1個並べるには `-r 1`
+
+![](overview.png)
 
 ## ライセンス
 
